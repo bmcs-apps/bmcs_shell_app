@@ -7,9 +7,10 @@ A web app for an interactive geometrical and numerical design of folded waterbom
 Waterbomb cells demo → 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/bmcs-apps/bmcs_shell_app/main?labpath=notebooks%2Fwb_cells_demo.ipynb)
 
-
 Waterbomb tessellations demo → 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/bmcs-apps/bmcs_shell_app/main?labpath=notebooks%2Fwb_tessellation_demo.ipynb)
+
+(By clicking on the links, the application will be launched in few minutes using "mybinder" service associated with the github repository)
 
 ## App backend dependencies
 This app depends on the following open-source packages from the [BMCS Group](https://github.com/bmcs-group):
