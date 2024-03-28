@@ -18,5 +18,6 @@ dependencies:
 - pip:
   - bmcs-utils==0.0.34a0
   - bmcs-shell==0.0.7
+  - bmcs-ibvpy==0.0.29a0
   - gmsh==4.10.2
   - pygmsh==7.1.17
