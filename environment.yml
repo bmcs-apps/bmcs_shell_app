@@ -1,22 +1,22 @@
-name: bmcs_env
+name: base
 channels:
 - conda-forge
 dependencies:
+- traits
 - appmode
 - jupyter_contrib_nbextensions
-- traits
-- matplotlib-base
+- matplotlib==3.5.2
 - numpy
-- scipy
 - sympy
-- k3d
-- ipywidgets
-- ipympl
-- gmsh
+- scipy
+- k3d==2.15.3
+- ipywidgets==7.7.2
+- ipympl==0.9.1
+- ipytree==0.2.1
+- importlib_resources
 - pip
 - pip:
-  - -e .
-  - bmcs-utils
-  - bmcs-shell
-  - gmsh
-  - pygmsh
+  - bmcs-utils==0.0.34a0
+  - bmcs-shell==0.0.7
+  - gmsh==4.10.2
+  - pygmsh==7.1.17
