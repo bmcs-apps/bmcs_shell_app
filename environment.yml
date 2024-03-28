@@ -16,7 +16,7 @@ dependencies:
 - importlib_resources
 - pip
 - pip:
-  - bmcs-utils==0.0.34a0
+  - bmcs-utils==0.0.32a0
   - bmcs-shell==0.0.8
   - bmcs-ibvpy==0.0.29a0
   - gmsh==4.10.2
